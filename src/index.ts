@@ -133,3 +133,5 @@ export const Account = Sr25519Account
 export default Sr25519Account
 
 export type ISr25519Account = ReturnType<typeof getAccountFromKeypair>
+
+export const Sr25519Keypair = SecretKeypair
